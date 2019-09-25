@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet">
+<style>
+
+	#menu>div>ul>li>a:hover{
+	color : yellow;
+	backgroud-color : red;
+	}
+</style>
+
+</head>
+<body>
+
+</body>
+</html>

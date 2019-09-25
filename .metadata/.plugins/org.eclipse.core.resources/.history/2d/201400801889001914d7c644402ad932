@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<style type = "text/css">
+            #headerMenu>tr>td>a{
+                display:inline-block;
+            }
+            #headerMenu>tr>td>a:visited, a:link{
+                /*일반상황*/
+                color: white;
+                font-size: 1em;
+                text-decoration: none;
+            }
+            #headerMenu>tr>td>a:active, a:hover{
+                /*마우스 이벤트 상황*/
+                color: white;
+                font-size: 1em;
+                text-decoration: none;
+            }
+        </style>
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- main start -->
+	<%@ include file="template/header.jspf" %>
+		<img alt = "main" src="imgs/logo.png">
+	<%@ include file="template/footer.jspf" %>
+	<!-- main end -->
+</body>
+</html>

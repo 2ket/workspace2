@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var xhr;
+	window.onload=function(){
+		xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=function(){
+			if(xhr.readyState==4){
+				if(xhr.status==200){
+					var xml=xhr.responseXML;
+					var stus=xml.querySelectorAll('student');
+					var msg='';
+					for(var i=0; i<stus.length; i++){
+						msg+='<tr>';
+						msg+='<td>'+stus[i].querySelector('num').innerHTML+'</td>';
+						msg+='<td>'+stus[i].querySelector('kor').innerHTML+'</td>';
+						msg+='<td>'+stus[i].querySelector('eng').innerHTML+'</td>';
+						msg+='<td>'+stus[i].querySelector('math').innerHTML+'</td>';
+						msg+='</tr>';
+					}
+					var table=document.querySelector('table');
+				}
+			}
+		};
+	};
+</script>
+</head>
+<body>
+	<h1>xml파싱</h1>
+	<table>
+		<tr>
+			<th>학번</th>
+			<th>국어</th>
+			<th>영어</th>
+			<th>수학</th>
+		</tr>
+	</table>
+</body>
+</html>

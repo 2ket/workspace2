@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var xhr;
+	window.onload=function(){
+		xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=function(){
+			if(xhr.readyState=4){
+				
+			}
+		};
+		xhr.open('get', 'students.xml');
+		xhr.send();
+	};
+</script>
+</head>
+<body>
+
+</body>
+</html>

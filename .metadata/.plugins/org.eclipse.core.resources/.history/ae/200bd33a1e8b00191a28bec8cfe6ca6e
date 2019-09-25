@@ -1,0 +1,9 @@
+package com.bit.dto;
+
+public class Bbs04Bean {
+	private int num;
+	private String sub;
+	private String content;
+	private String nalja;
+	
+}

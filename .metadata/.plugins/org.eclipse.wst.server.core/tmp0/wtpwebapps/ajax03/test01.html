@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var xhr;
+	window.onload=function(){
+		xhr.new XMLHttpRequest();
+		shr.onreadystatechange=myCallback;
+		xhr.open('get', 'ex01.json');
+		xhr.send();
+	};
+	function myCallback(){
+		if(xhr.readyState==4 && xhr.status==200){
+			var msg=xhr.responseText;
+			alert(msg);
+		}
+	}
+	
+</script>
+</head>
+<body>
+	<h1>학생 성적관리</h1>
+	<table>
+	<thead>
+		<tr>
+			<td>학번</td>
+			<td>이름</td>
+			<td>국어</td>
+			<td>영어</td>
+		</tr>
+	</thead>
+	</table>
+</body>
+</html>

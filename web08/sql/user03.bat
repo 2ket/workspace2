@@ -1,0 +1,1 @@
+sqlplus hr/hr @user03.sql

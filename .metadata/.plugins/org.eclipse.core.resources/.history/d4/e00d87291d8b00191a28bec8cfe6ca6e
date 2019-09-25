@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.sql.*, com.bit.util.MyOracle"%>
+<%
+	String sql="SELECT NUM, SUB, NALJA FROM BBS04 ORDER BY NUM DEXC";
+	PreparedStatement pstmt=null;
+	ResultSet rs=null;
+	
+	pstmt=MyOracle.getConnection().prepareStatement(sql);
+	rs=pstmt.executeQuery();
+%>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

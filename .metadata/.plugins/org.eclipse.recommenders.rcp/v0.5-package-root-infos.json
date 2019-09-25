@@ -1,0 +1,652 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "77c6b2eb1e2804753365a23d934244a21e6dc115",
+    "jarFileModificationDate": "2019-03-27T14:52:35.146+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "tomcat7-websocket",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "75c77704dc0541d16bec88f6c776d9944bc4cb6e",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat7-websocket.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web10\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e012adeb2d30071f03032d71944c7ef22efc6909",
+    "jarFileModificationDate": "2019-03-27T14:52:30.352+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "websocket-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "421b9384469ddee45dc533163e625c35018aa559",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\websocket-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jasper-el",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "86ebea15f1721ed5e4ddeecd6a19675197413e73",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\jasper-el.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "410df01b3f9bae3b400a920d850a1ec809b8531c",
+    "jarFileModificationDate": "2019-03-27T14:52:30.293+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5bb1dedc3344cd3bb86828d4aa8ca82f4a606ed4",
+    "jarFileModificationDate": "2019-03-27T14:52:30.294+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5460adee09cc5fc8829c0acfc46c34670a7d70a0",
+    "jarFileModificationDate": "2019-03-27T14:52:30.325+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jasper",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6951cb4cad322ebd14f007be68a0072ce1b68253",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\jasper.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web06\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "69983f43d2de65cac5ce3226b35f3a6174b0f632",
+    "jarFileModificationDate": "2019-03-27T14:52:30.257+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95f306079645f158e2cbc186d8b8cfefd30b8c90",
+    "jarFileModificationDate": "2019-03-27T14:52:30.291+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "tomcat-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e83dfb82c067a407394991a4c8b33e88f1ad6f2c",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ec9a91b8278dee901262d240daef5ed8eaa1bafd",
+    "jarFileModificationDate": "2019-03-27T14:52:30.328+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "tomcat-i18n-ja",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "580d18a1c307c33f1f5fb585bcafaedc1fb2aa21",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-i18n-ja.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2cba5da42f28f2a94f75845aafdc47a9b31add66",
+    "jarFileModificationDate": "2019-03-27T14:52:34.642+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "52d5dea1c17fa712e5164e082069c573033ce45c",
+    "jarFileModificationDate": "2019-03-27T14:52:30.257+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d96713dc2a7b6a4eadd5150952a7d9f32a4bf7e6",
+    "jarFileModificationDate": "2019-03-27T14:52:30.293+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "tomcat-i18n-es",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3a646ff747c669662b22e959f31a8f5101b82ab3",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-i18n-es.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.jdt.core.compiler.batch",
+    "version": {
+      "major": 3,
+      "minor": 10,
+      "micro": 2,
+      "qualifier": "v20150120-1634"
+    },
+    "jarFileFingerprint": "71d67f5bab9465ec844596ef844f40902ae25392",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\ecj-4.4.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web07\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ant",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "567313aaa4af5bcf8f3c9e30c191ae7ae1c01819",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\catalina-ant.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "servlet-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "519ba34076f4530d3a72f589a1ab4a072816eaf0",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\servlet-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2006-02-02T00:49:38+09:00",
+    "location": "C:\\oraclexe\\app\\oracle\\product\\10.2.0\\server\\jdbc\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ha",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "569e886de9be101884df3414fff123b9e1c0eaf3",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\catalina-ha.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-tribes",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cb783ca7291d01557dc0e07e56ee33e8897e157d",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\catalina-tribes.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "98f28076736f4c12cd3f1835b27d3416d7d5538f",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\catalina.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e87646a76f88e2b30767b891618c9351d30da0b6",
+    "jarFileModificationDate": "2019-03-27T14:52:30.251+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\ajax02\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "el-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4ecdcb062bc228f5be868707643984bf8d0fc79f",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\el-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a39d7150d451a772d00059c3dc1ad947a47d60bb",
+    "jarFileModificationDate": "2019-03-27T14:52:30.256+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.tomcat.jdbc",
+    "version": {
+      "major": 7,
+      "minor": 0,
+      "micro": 94,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f58022cc8c087731d8271aa4c0385237a28532d2",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-jdbc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-ru",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7441cd313ac785613e31d30ab8b9f23e41821dd4",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-i18n-ru.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jsp-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "357a4566c2416b495477a04a3e28e718a9b18d58",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\jsp-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web04\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-dbcp",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "daa142f7ae7bd8c786e334c4d9650b6f1357dde6",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-dbcp.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-util",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bbda7b014c5ad80df56c24fb8333e135ca9cc8d1",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-util.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web08\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fe1d0c19f58e652976a01b2509de1140ce100a7d",
+    "jarFileModificationDate": "2019-03-27T14:52:30.278+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "myOra",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2730de85773368ee612f08253d56a14c212bff66",
+    "jarFileModificationDate": "2019-05-23T15:26:58.788+09:00",
+    "location": "C:\\java\\workspace2\\web07\\WebContent\\WEB-INF\\lib\\myOra.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "04e55b2dd864dc84f924d9c8cc0f040dd8aea537",
+    "jarFileModificationDate": "2019-03-27T14:52:35.194+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "tomcat-coyote",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ee225266ec4167ba062b7603630ed5b01866fa7",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-coyote.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fdab7a89ab9a396bde355e4c9f5453cc95099202",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\annotations-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7434a7d272f4dda96c16fc7286ee7b7266918679",
+    "jarFileModificationDate": "2019-03-27T14:52:34.665+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bf1c817820341a246f7130fe046e8310b03d04f6",
+    "jarFileModificationDate": "2019-03-27T14:52:30.292+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web05\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc14",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31515b1c6e67df53eddd358386ccf344657189b",
+    "jarFileModificationDate": "2019-05-20T16:55:16.855+09:00",
+    "location": "C:\\java\\workspace2\\web09\\WebContent\\WEB-INF\\lib\\ojdbc14.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-fr",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7c2e3a0a3f8379d45510e5f8687c5bc7a7f68504",
+    "jarFileModificationDate": "2019-04-11T01:57:12+09:00",
+    "location": "C:\\Tomcat 7.0\\lib\\tomcat-i18n-fr.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "577706552c0b173a9ba49394cea140fe6597a827",
+    "jarFileModificationDate": "2019-03-27T14:52:30.295+09:00",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  }
+]

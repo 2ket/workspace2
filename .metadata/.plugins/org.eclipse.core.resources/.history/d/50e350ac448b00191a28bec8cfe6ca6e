@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var xhr;
+	window.onload=function(){
+		xhr.new XMLHttpRequest();
+		shr.onreadystatechange=myCallback;
+		xhr.open('get', 'ex01.json');
+		xhr.send();
+	};
+	function myCallback(){
+		if(xhr.readyState==4 && xhr.status==200){
+			var msg=xhr.responseText;
+			alert(msg);
+		}
+	}
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

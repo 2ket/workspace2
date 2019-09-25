@@ -1,0 +1,22 @@
+{
+  "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\rt.jar": {
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\lib\\rt.jar",
+    "status": "UNRESOLVED",
+    "error": "Could not transfer artifact jre:jre:zip:call:1.0.0 from/to remote-models (http://download.eclipse.org/recommenders/models/juno/): Error transferring file, server returned status code 307"
+  },
+  "C:\\java\\workspace2\\java28\\src": {
+    "location": "C:\\java\\workspace2\\java28\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\java\\workspace2\\java28\\src\u0027. Skipped."
+  },
+  "C:\\java\\workspace2\\web09\\src": {
+    "location": "C:\\java\\workspace2\\web09\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\java\\workspace2\\web09\\src\u0027. Skipped."
+  },
+  "C:\\java\\workspace2\\ajax03\\src": {
+    "location": "C:\\java\\workspace2\\ajax03\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\java\\workspace2\\ajax03\\src\u0027. Skipped."
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/mygrid.css"/>
+<style type="text/css">
+	#menu>div>ul{
+		padding:0px;
+		width:408px;
+		margin: 0px auto;
+	}
+	#menu>div>ul>li{
+		list-style:none;
+		float:left
+	}
+	#menu>div>ul>li>a:hover{
+	color : yellow;
+	backgroud-color : red;
+	}
+</style>
+<script type="text/javascript">
+	var carousel;
+	var imgs;
+	var cnt=0;
+	window.onload=function(){
+		carousel=document.querySelector('#carousel');
+		imgs=document.querySelectorAll('#carousel>img');
+		loop();
+		
+		menu[1].onclick=function(){
+			//alert('menu2');
+			xhr=new XMLHttpRequest();
+			xhr.onreadystatechange=getList;
+			xhr.open('get', 'data/list.jsp');
+			xhr.sent();
+			return false;
+		};
+		
+	};
+
+	fuction getList(){
+		var root=xhr.responseXML;
+		if(xhr.readyState==4 && xhr.status==200){
+			var root=xhr.responseXML;
+			var row=root.querySelectorAll('row');
+			
+			for(var i=0; i<row.length; i++){
+				alert(row[i].innerHTML);
+			}
+			
+		}
+	}
+	function loop(){
+		for(var i=0; i<imgs.length; i++){
+			imgs[i].style.display='none';
+		}
+		if(cnt>=imgs.length) cnt=0;
+		imgs[cnt++].style.display='block';
+		window.setTimeout(loop, 3000);
+	}
+</script>
+
+</head>
+<body>
+	<div class="container">
+		<div id="header" div class="row">
+			<div class="grid12">
+				<h1>비트교육센터</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="grid12">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">LIST</a></li>
+					<li><a href="#">INSERT</a></li>
+					<li><a href="#">LOGIN</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content" div class="row">
+			<div class="grid12">
+			
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

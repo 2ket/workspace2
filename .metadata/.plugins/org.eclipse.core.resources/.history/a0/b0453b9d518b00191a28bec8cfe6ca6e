@@ -1,0 +1,17 @@
+package com.bit.dao;
+
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+
+import com.bit.dto.Bbs04Bean;
+
+public class Bbs04Dao {
+	public ArrayList<Bbs04Bean> getList(){
+		ArrayList<Bbs04Bean> list = new ArrayList<Bbs04Bean>();
+		String sql="select * from bbs04 order by num desc";
+		Connection conn=null;
+		PreparedStatement=null;
+		
+		return list;
+	}
+}

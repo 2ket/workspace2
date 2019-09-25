@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet">
+<style>
+
+	#menu>div>ul>li>a:hover{
+	color : yellow;
+	backgroud-color : red;
+	}
+</style>
+<script type="text/javascript">
+	var carousel;
+	var imgs;
+	var cnt=0;
+	window.onload=function(){
+		carousel=document.querySelector('#carousel');
+		imgs=document.querySelectorAll('#carousel>img');
+		loop();
+		
+		menu[1].onclick=function(){
+			//alert('menu2');
+			xhr=new XMLHttpRequest();
+			xhr.onreadystatechange=getList;
+			xhr.open('get', 'data/list.jsp');
+			xhr.sent();
+			return false;
+		};
+		
+	};
+
+	fuction getList(){
+		var root=xhr.responseXML;
+		if(xhr.readyState==4 && xhr.status==200){
+			var root=xhr.responseXML;
+			var row=root.querySelectorAll('row');
+			
+			for(var i=0; i<row.length; i++){
+				alert(row[i].innerHTML);
+			}
+			
+		}
+	}
+	function loop(){
+		for(var i=0; i<imgs.length; i++){
+			imgs[i].style.display='none';
+		}
+		if(cnt>=imgs.length) cnt=0;
+		imgs[cnt++].style.display='block';
+		window.setTimeout(loop, 3000);
+	}
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

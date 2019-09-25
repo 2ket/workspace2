@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/mygrid.css" />
+<style type="text/css">
+	#header h1{
+		background-image:url(imgs/logo.png);
+		background-repeat: no=repeat;
+		width:248px;
+		height: 70px;
+		text-indent: -999px;
+	}
+	#menu{}
+	#menu>div{
+		background-color: gray;
+		height: 50px;
+	}
+	#menu>div>ul{
+		padding:0px;
+		margin: 0px auto;
+		width: 
+	}
+	#menu>div>ul>li{
+		list-style: none;
+		float: left;
+	}
+	#menu>div>ul>li>a{
+		color: white;
+		background-color: gray;
+		width: 100px;
+		height: 50px;
+		display: inline-block;
+		text-align: center;
+		line-height: 50px;
+		text-decoration: none;
+	}
+	#menu>div>ul>li>a:hover{
+		color:yellow;
+		background-color:red;
+		border:white 5px solid;
+		box-sizing:border-box;
+	}
+	.carousel{
+		width: 320px;
+	}
+	.carousel>a{
+		position: relative;
+		background-color: rgba(200,200,0.5);
+		
+	}
+	.carousel>a:hover{
+		
+	}
+	.carousel>a:last-child{
+		left: 230px;
+	}
+	
+	#p2 table{
+		width: 80%;
+		margin: 0px auto;
+	}
+	#p2 table>thead{
+		background-color: gray;
+	}
+	#p2 table>thead>tr>th:first-child{
+		width:100px;
+	}
+	#p2 table>thead>tr>th:last-child{
+		width:120px;
+	}
+	
+</style>
+<script type="text/javascript">
+	var carousel, imgs, prev, next;
+	var cnt=0;
+	var menu,p1, p2;
+	var tbody;
+	window.onload=function(){
+		carousel=document.querySelector(".carousel");
+		imgs=document.querySelectorAll(".carousel.img");
+		prev=document.querySelectorAll(".carousel a")[0];
+		next=document.querySelectorAll(".carousel a")[1];
+		menu=document.querySelectorAll("#menu ul>li>a");
+		p1=document.querySelector("#p1");
+		p2=document.querySelector("#p2");
+		tbody=document.querySelector('#p2 table>tbody');
+		imgClear(cnt);
+		prev.onclick=prevImg;
+		next.onclick=nextImg;
+		menu[1].onclick=show2p;
+		
+		setInterval(myloop,3000);
+	};
+	
+	function showPage(a){
+		p1.style.display='none';
+		p2.style.display='none';
+		a.sytle.display='block';
+	}
+	
+	function show2p(){
+		//list page
+		showPage(pw);
+		xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=list;
+		xhr.open('get','data/list.jsp');
+		xhr.send();
+	}
+	function list(){
+		if(xhr.readyState==4 && xhr.status==200){
+			var msg=xhr.responseText;
+			var obj=JSON.parse(msg);
+			var arr=obj.root;
+			var ele='';
+			for(var i=0; i<arr.length; i++){
+				ele+='<tr>';
+				ele+='<td>'+arr[i].num+'</td>';
+				ele+='<td>'+arr[i].sub+'</td>';
+				ele+='<td>'+arr[i].nalja+'</td>';
+				ele+='</tr>';
+			}
+			tbody.innerHTML=ele;
+		}
+	}
+	function myloop(){
+		next.onclick();
+	}
+	function prevImg(){
+		if(cnt>0)cnt--;
+		else cnt=5;
+		imgClear(cnt);
+		return false;
+	}
+	function nextImg(){
+		if(cnt<5)cnt++;
+		else cnt=0;
+		imgClear(cnt);
+		return false;
+	}
+	function imgClear(cnt){
+		for(var i=0; i<imgs.length; i++){
+			imgs[i].style.display='none';
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="containerw">
+		<div class="row" >
+			<div class="grid12">
+				<h1>비트교육센터</h1>
+			</div>
+		</div>
+		<div class="row" id="menu">
+			<div class="grid12">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">LIST</a></li>
+					<li><a href="#">ADD</a></li>
+					<li><a href="#">LOGIN</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row" id="content" >
+			<div class="grid12">
+				<div class="carousel">
+					<img alt="main" src="imgs/b01.jpg" />
+					<img alt="main" src="imgs/b02.jpg" />
+					<img alt="main" src="imgs/b03.jpg" />
+					<img alt="main" src="imgs/b04.jpg" />
+					<img alt="main" src="imgs/b05.jpg" />
+					<img alt="main" src="imgs/b06.jpg" />
+					<a href="#"><<</a>
+					<a href="#">>></a>
+				</div>
+				
+				<div id="p2" class="grid12">
+					<h2>리스트 페이지</h2>
+					<table>
+						<thead>
+							<tr>
+								<td>글번호</td>
+								<td>제목</td>
+								<td>작성자</td>
+							</tr>
+						</thead>
+					</table>
+				</div>
+				
+			</div>
+		</div>
+		<div class="row" >
+			<div class="grid03">
+				<img alt="" src="imgs/logo2.png">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
